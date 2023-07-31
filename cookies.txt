@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.your-domain.com	TRUE	/	FALSE	1999999999	__tad	1690795171.7076184
+ww25.your-domain.com	TRUE	/	FALSE	1999999999	parking_session	cc4dfef0-13e3-42d2-89e1-daa040e00654
+

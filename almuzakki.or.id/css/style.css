@@ -1,0 +1,2582 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');
+html,body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  scroll-behavior: smooth;
+}
+a{
+  color: #FF9024;
+  transition: 0.2s;
+}
+a:hover{
+  text-decoration: none;
+
+}
+
+/*navbar*/
+.logo-al-muzzaki{
+  margin-right: 56px;
+}
+#myBtn{
+  display: none;
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ z-index: 99;
+ font-size: 22px;
+ border: none;
+ outline: none;
+ background-color: #369363;
+ color: white;
+ cursor: pointer;
+ padding: 0px 6px 4px 6px;
+ transition: 0.3s;
+ border-radius: 3px;
+ cursor: pointer;
+}
+.navbar-al-muzzaki{
+  background-color: #fff;
+  padding: 19px 0 19px 0;
+}
+.link-header-zakat{
+
+  opacity: 0.8;
+   font-family: Rubik;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: center;
+   color: #063338;
+   transition: 0.3s;
+}
+.nav-link{
+  margin-right: 30px;
+}
+.nav-link:hover{
+  background-color: #369363;
+  color: #fff;
+  border-radius: 2px;
+}
+.navbar{
+  padding: 19px 0 19px 0 ;
+}
+/*tutup-navbar*/
+
+/*part1*/
+
+.jarak-1-panti-asuhan{
+  margin-top: 40px;
+}
+.icon-bar {
+	width: 22px;
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin: 4px 0 4px 0;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+
+
+.navbar-toggler .top-bar {
+  transform: translate(3px) rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: translate(3px) rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.penjelasan-berbagi-zakat{
+  margin-top: 72px;
+
+}
+.donasi-zakat-yayasan-yatim{
+  margin-top:40px;
+}
+.margin-nav-li{
+  margin-left: 27px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #063338;
+}
+/*tutup-part1*/
+/*part2*/
+.background-yayasan-zakat-yatim2{
+  width: 100%;
+  background-size: auto;
+  padding: 40px 0 40px 0;
+  background-color: #e0f1ec;
+  margin-top: 50px;
+}
+.penjelasan-ico-yayasan-yatim{
+  display: inline-grid;
+  margin-left: 16px;
+}
+.rpv-yayasan-yatim-piatu{
+  margin-right: 0px;
+  text-align: center;
+}
+.jumlah-penjelasan-ico-yayasan{
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #063338;
+}
+.penjelasan-ico-yayasan{
+  opacity: 0.8;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #063338;
+
+}
+/*tutup-part2*/
+/*part3*/
+.margin-top-part3{
+  padding-top: 114px;
+}
+.txt-detail-yayasan-yatim-piatu-almuzakki{
+  margin-top: 24px;
+  opacity: 0.6;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #063338;
+  margin-bottom: 40px;
+}
+.txt-yayasan-yatim-piatu-almuzakki{
+  margin-top: 60px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #063338;
+}
+/*tututp-part3*/
+/*part6*/
+.margin-part6-top{
+  margin-top: 86px;
+}
+.card{
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+}
+.card-body{
+  padding: 8.5px 16px 16px 16px;
+}
+.tanggal-card-yayasan-panti-asuhan{
+  opacity: 0.8;
+ font-family: Rubik;
+ font-size: 14px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.71;
+ letter-spacing: normal;
+ color: #369363;
+ margin-bottom: 8px;
+}
+.komentar-yatim-piatu{
+  opacity: 0.6;
+ font-family: Rubik;
+ font-size: 12px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.83;
+ letter-spacing: normal;
+ color: #063338;
+ padding: 1px 0 0 8px;
+}
+
+.isi-card-yayasan-yatim{
+  opacity: 0.6;
+font-family: Rubik;
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.57;
+letter-spacing: normal;
+color: #063338;
+margin-bottom: 24px;
+}
+.txt-aktivitas-terakhir{
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+
+}
+.txt-aktivitas-terakhir2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+
+}
+.title-card-yayasan-zakat{
+  margin-bottom: 5px;
+  opacity: 0.8;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #063338;
+}
+.margin-part6-top-2{
+
+}
+.jarak-atas-berita-zakat-panti-asuhan{
+  margin-top: 34px;
+}
+.background-yayasan-zakat-yatim6{
+  width: 100%;
+  height: auto;
+  background-color: #28ab71;
+  padding:32px 0 56px 0;
+}
+.card-yayasan-yatim-custom{
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+/*tututp-part6*/
+
+/*part7*/
+.img-almuzakki-footer{
+  margin-bottom: 22px;
+}
+.txt-detail-all-muzakki-bottom{
+  opacity: 0.7;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 22px;
+
+}
+.txt-tentang-kami-bottom{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+.garis-yayasan-yatim{
+  border: 0.5px solid #105740;
+  margin:40px 0 31px 0;
+
+}
+.footer-copyright-yayasan{
+  opacity: 0.8;
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 0px 5px 5px 0px;
+}
+.jarak-sosmed2{
+  margin-top: 18px;
+}
+.mt-btn-zakat{
+  margin-bottom: 10px;
+}
+.txt-detail-tentang-kami-bottom{
+  opacity: 0.7;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.txt-detail-tentang-kami-bottom:hover{
+  margin-left:10px;
+}
+.txt-detail-tentang-kami-bottom a{
+  color: #fff;
+}
+/*tututp-part7*/
+/*galeriindex*/
+.galeri-kiri-atas{
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+.galeri-kiri-bawah{
+  margin-top: 33px;
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+.galeri-tengah{
+  height: 313px;
+  width: 100%;
+  object-fit: cover;
+}
+.galeri-kanan-1{
+  height: 313px;
+  width: 100%;
+  object-fit: cover;
+}
+.mt-top-33{
+  margin-top: 33px;
+}
+.galeri-zakat-fitrah{
+  margin: 56px 0 56px 0;
+}
+/*galeriindextutup*/
+.margin-head{
+  margin-left: 56px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #063338;
+}
+
+
+.tentang-al-muzzaki{
+  display: inline-block;
+}
+
+.margin-part1-top{
+  margin-top: 40px;
+}
+
+.margin-bottom-navbar{
+  margin-bottom: 55px;
+}
+
+.margin-top-txt1{
+  margin-top: 72px;
+}
+
+
+
+.margin-detail-program{
+  margin-top: 72px;
+}
+
+
+.btn-hubungi-kami{
+  padding: 11px 23px 11px 23px;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  background-color: #369363;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.btn-hubungi-kami:hover{
+
+  border-radius: 4px;
+  border: 2px solid #369363;
+  background-color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #369363;
+}
+
+.judul-yayasan-yatim{
+  font-family: 'Rubik', sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  color: #063338;
+}
+
+.judul-detail-yayasan-yatim{
+
+  opacity: 0.6;
+  margin-top: 23px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #063338;
+}
+
+.btn-donasi-sekarang{
+  padding: 15px 30px 15px 30px;
+  border-radius: 4px;
+  background-color: #ff9024;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.btn-donasi-sekarang:hover{
+  background-color: #d6771b;
+}
+
+.txt-atau{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #063338;
+}
+
+.txt-pelajari-tentang-kami{
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #063338;
+  margin-left: 34px;
+}
+
+.txt-head-tentangkami{
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #379464;
+}
+
+
+
+
+
+.btn-visi-misi{
+  margin-top:50px;
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #369363;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-visi-misi:hover{
+  color:#369363;
+  border: 2px solid #369363;
+  background-color: #ffffff;
+}
+
+.position-background-yayasan-zakat-yatim3{
+  margin-left: 150px;
+}
+
+
+.txt-head-program-kami{
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #379464;
+}
+.program-donasi{
+  padding-top:100px;
+}
+
+.txt-al-muzakki-program-donasi{
+  margin-top:60px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #063338;
+}
+
+.txt-detail-program{
+
+  margin-top:24px;
+  opacity: 0.6;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #063338;
+}
+
+
+.txt-program-pendidikan{
+  margin-top:16px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #063338;
+}
+
+.txt-detail-program-pendidikan{
+  max-width: 349px;
+  opacity: 0.6;
+  margin-top:16px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #063338;
+}
+
+.txt-bantuanmu{
+  margin-top:90px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #379464;
+}
+
+.txt-detail-bantuanmu{
+  margin-top:55px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #063338;
+}
+
+.btn-lihat-foto{
+  margin-top:56px;
+  width: 163px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #369363;
+  margin-top:55px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+
+
+
+
+.btn-lihat-semua-berita{
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #75c088;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  float: right;
+  cursor: pointer;
+}
+.btn-lihat-semua-berita:hover{
+  background-color: #67aa79;
+}
+
+.background-yayasan-zakat-yatim7{
+  background-color: #177255;
+  width: 100%;
+  height: auto;
+  padding: 80px 92px 32px 92px;
+}
+
+.btn-yukdonasi{
+  width: 186px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #ff9024;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.btn-yukdonasi:hover{
+  background-color: #d6771b;
+}
+
+.txt-all-muzakki-bottom{
+
+}
+
+
+.txt-lihat-peta{
+  opacity: 0.8;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #68c49b;
+}
+
+.txt-sosmed{
+  padding-left: 8px;
+  opacity: 0.8;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+
+/* start css donasi */
+.bg-donasi{
+  background-image: url("../image/bg-donasi-al-muzakki.jpg") ,linear-gradient(to bottom, rgba(238, 238, 238, 0), #ffffff) ;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 280px;
+
+  position: relative;
+  width: 100%;
+}
+
+.txt-memberikan-donasi-position{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.txt-memberikan-donasi-position2{
+  text-align: center;
+  padding: 65px 15px 0 15px;
+}
+
+.txt-memberikan-donasi{
+  font-family: 'Rubik', sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: center;
+  color: #063338;
+}
+
+.txt-memberikan-donasi-kuning{
+  font-family: 'Rubik', sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff9024;
+}
+
+.txt-detail-memberikan-donasi{
+  padding-top: 25px;
+  opacity: 0.6;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #063338;
+}
+.jarak-cara-donasi{
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+
+
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 100%;
+  padding: 8px 0 8px 0;
+  border-radius: 5px;
+  box-shadow: 0 9px 24px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+}
+.kata-cara-donasi{
+  padding-left: 36px;
+}
+
+/* Style the buttons inside the tab */
+.tablinks {
+  margin: 8px 16px 8px 16px;
+  background-color: #fff;
+  color: #063338;
+  padding-top:21px;
+  padding-bottom:21px;
+  padding-left: 21px;
+  width:91%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.bank::before{
+  content: url(https://almuzakki.or.id/image/transfer-donasi.svg);
+  position: absolute;
+}
+.bank.active:before{
+  content: url(https://almuzakki.or.id/image/transfer-donasi2.svg);
+
+}
+.bank:hover:before{
+  content: url(https://almuzakki.or.id/image/transfer-donasi2.svg);
+}
+
+.antar::before{
+  content: url(https://almuzakki.or.id/image/antar-langsung.svg);
+  position: absolute;
+}
+.antar.active:before{
+  content: url(https://almuzakki.or.id/image/lokasi-donasi2.svg);
+
+}
+.antar:hover:before{
+  content: url(https://almuzakki.or.id/image/lokasi-donasi2.svg);
+}
+.antar:hover {
+  background-color: #369363;
+  color: #fff;
+}
+
+/* Create an active/current "tab button" class */
+.antar.active {
+  background-color: #369363;
+  color: #fff;
+}
+
+.jemput::before{
+  content: url(https://almuzakki.or.id/image/jemput-donasi.svg);
+  position: absolute;
+}
+.jemput.active:before{
+  content: url(https://almuzakki.or.id/image/jemput-donasi-hover.svg);
+
+}
+.jemput:hover:before{
+  content: url(https://almuzakki.or.id/image/jemput-donasi-hover.svg);
+}
+.jemput:hover {
+  background-color: #369363;
+  color: #fff;
+}
+
+/* Create an active/current "tab button" class */
+
+/*style-button-banytak-tutup*/
+
+
+
+
+
+
+button:focus {
+
+    outline: none;
+}
+/* Change background color of buttons on hover */
+.tablinks:hover {
+  background-color: #369363;
+  color: #fff;
+}
+
+/* Create an active/current "tab button" class */
+.tablinks.active {
+  background-color: #369363;
+  color: #fff;
+}
+
+.keterangan-donasi-transfer{
+  margin: 2px 0px 24px 0px;
+  opacity: 0.8;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #063338;
+
+}
+.keterangan-donasi-transfer2{
+  margin: 2px 0px 16px 0px;
+  opacity: 0.8;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #063338;
+
+}
+.row-custom{
+  max-width: 100%;
+  display: flex;
+}
+.col-6-custom{
+  min-width: 50%;
+  display: block;
+
+
+}
+.pd-card-donasi{
+  padding:16px 42px 16px 42px;
+}
+.isi-card-bank1{
+  border-radius: 4px 1px 0px 0px;
+  border-width: 1px 1px 0px 1px ;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #eeeeee;
+
+
+}
+.isi-card-bank2{
+  border-radius: 0px 4px 0px 0px;
+  border-width: 1px 1px 0px 0px ;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #eeeeee;
+
+}
+.isi-card-bank3{
+  border-radius: 0px 0px 0px 4px;
+  border-width: 1px 1px 1px 1px ;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #eeeeee;
+
+}
+.isi-card-bank4{
+  border-radius: 0px 4px 4px 0px;
+  border-width: 1px 1px 1px 0px ;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #eeeeee;
+
+}
+.img-custom-bank{
+  width: 100%;
+  height: 36px;
+
+}
+.keterangan-konfirmasi-transfer{
+  opacity: 0.6;
+ font-family: Rubik;
+ font-size: 14px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.71;
+ letter-spacing: normal;
+ color: #063338;
+ margin: 24px 0 16px 0;
+}
+.nomer-rekening-donasi-zakat{
+  opacity: 0.9;
+  font-family: Rubik;
+ font-size: 20px;
+ font-weight: 500;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #063338;
+ margin: 16px 0 8px 0px;
+}
+.nama-rekening-donasi-zakat{
+  opacity: 0.6;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #063338;
+}
+.btn-copy-to-clipboard{
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  font-family: Rubik;
+  font-size: 14px;
+  text-align: center;
+  color: #177255;
+  font-weight: 500;
+  margin-top: 8px;
+  padding: 4.5px 3px 4.5px 3px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn-copy-to-clipboard:hover{
+  background-color: #d2d0d0;
+}
+.btn-konfirmasi-donasi-zakat{
+  background-color: #ff9024;
+  text-align: center;
+  padding: 14px 4px 14px 4px;
+  border-radius: 4px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #ffffff;
+}
+.btn-konfirmasi-donasi-zakat:hover{
+  background-color: #d6771b;
+}
+.alamat-section-almuzakki-jepara{
+  font-family: Rubik;
+ font-size: 14px;
+ font-weight: 500;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.71;
+ letter-spacing: normal;
+ color: #063338;
+
+}
+.sect1{
+  margin-bottom: 8px;
+}
+.google-map-al-muzzaki-yayasan-yatim{
+  margin: 16px 0 16px 0;
+}
+.btn-lihat-google-yayasan-yatim{
+  display: block;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #369363;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  padding: 14px 4px 14px 4px;
+  transition: 0.3s;
+}
+.btn-lihat-google-yayasan-yatim:hover{
+  background-color: #d2d0d0;
+}
+.alamat-email-almuzakki{
+  font-family: Rubik;
+font-size: 14px;
+font-weight: 500;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.71;
+letter-spacing: normal;
+color: #063338;
+margin-bottom: 16px;
+}
+.sect22{
+  font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+}
+
+/* blog */
+.btn-donasi-sekarang-top{
+  color: #fff;
+  background-color: #ff9024;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 12px 13px 12px 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.btn-search-nav{
+
+  color: #fff;
+  height: 43px;
+  width: 43px;
+  padding: 10px;
+  background-size: 20px;
+  background-color: #bfe9d3;
+  border-radius: 4px;
+  font-size: 14px;
+  background-image: url(https://almuzakki.or.id/image/search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+
+#search {
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 113, 85, 0.67);
+
+    -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+    -webkit-transform: translate(0px, -100%) scale(0, 0);
+	-moz-transform: translate(0px, -100%) scale(0, 0);
+	-o-transform: translate(0px, -100%) scale(0, 0);
+	-ms-transform: translate(0px, -100%) scale(0, 0);
+	transform: translate(0px, -100%) scale(0, 0);
+
+    opacity: 0;
+}
+
+#search.open {
+    -webkit-transform: translate(0px, 0px) scale(1, 1);
+    -moz-transform: translate(0px, 0px) scale(1, 1);
+	-o-transform: translate(0px, 0px) scale(1, 1);
+	-ms-transform: translate(0px, 0px) scale(1, 1);
+	transform: translate(0px, 0px) scale(1, 1);
+    opacity: 1;
+}
+
+#search input[type="search"] {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    border: 0px;
+    margin: 0px auto;
+    margin-top: -51px;
+    padding-left: 20px;
+    padding-right: 30px;
+    outline: none;
+}
+#search .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -45px;
+}
+#search .tutup {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: #ff9024;
+    color: #fff;
+    border-radius: 4px;
+    border:1px solid #ff9024;
+    cursor: pointer;
+  	opacity: 1;
+  	padding: 7px 13px;
+  	font-size: 20px;
+    font-weight: 500;
+    transition: 0.2s;
+    border-radius: 4px;
+
+}
+#search .tutup:hover {
+
+  background-color:#cd7621;
+  border:1px solid #cd7621;
+
+
+}
+#search .pencarian::placeholder{
+  color: rgba(255, 255, 255, 0.57);
+}
+#search .btn-cari{
+  background-color: #ff9024;
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+#search .btn-cari:hover{
+  background-color: #cd7621;
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#myCarousel .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+    overflow-y: hidden;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+#myCarousel .list-inline::-webkit-scrollbar {
+    width:0 !important;
+
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+
+}
+
+#myCarousel .carousel-indicators > li.active img {
+    filter: brightness(100%);
+}
+.img-custom-crsl{
+  width: 202px;
+  height: 118px;
+  object-fit: cover;
+  margin-right: 21px;
+  border-radius: 4px;
+  filter: brightness(55%);
+
+}
+.img-custom-crsl:active{
+  filter: brightness(100%);
+
+}
+.img-custom-crsl1{
+  border-radius: 4px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
+
+}
+.carousel-indicators{
+  margin-right: 0 !important;
+  display: -webkit-box;
+  margin-top: 21px;
+
+}
+.carousel-indicators li{
+  margin-left: 0 !important;
+  margin-right: 0!important;
+}
+.bg-carousel-blog-almuzakki{
+  position: absolute;
+   background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
+   width: 100%;
+   height: 100%;
+   z-index: 10;
+}
+.keterangan-carousel-blog-almuzakki{
+  position: absolute;
+  top: 55%;
+  color: #fff;
+  left: 3.8%;
+  z-index: 11;
+}
+.carousel-inner{
+  border-radius: 4px;
+}
+
+.tag-sticker-blog-almuzakki{
+  padding: 7px 13px 7px 13px;
+  display: inline-block;
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff9024;
+  border-radius: 2px;
+  border: solid 1px #ff9024;
+  background-color: rgba(255, 144, 36, 0.31);
+}
+.judul-berita-carousel-almuzakki{
+  margin-top: 8px;
+  font-family: Rubik;
+  font-size: 38px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.tanggal-berita-carousel-almuzakki{
+  opacity: 0.8;
+ font-family: Rubik;
+ font-size: 14px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.57;
+ letter-spacing: normal;
+ color: #ffffff;
+ margin-top: 12px;
+}
+.bg-blog-abu{
+   background-color: #f8f8f8;
+   height: auto;
+   width: 100%;
+   margin-top: 15px;
+   padding-top: 48px;
+   padding-bottom: 48px;
+}
+.btnblog{
+  cursor: pointer;
+
+  border-radius: 4.4px;
+  background-color: #bfe9d3;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #379464;
+  padding: 12px 20px 12px 20px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  margin: 5px 10px 5px 10px;
+  transition: 0.2s;
+}
+.btnblog.active{
+  background-color: #379464;
+  color: #f8f8f8;
+}
+.btnblog:hover{
+  background-color: #379464;
+  color: #f8f8f8;
+}
+.cardblog-almuzakki{
+  margin-top: 40px;
+}
+.gambar-card-blog{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px 4px 0px 0px;
+}
+.gambar-card-blog1{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius:  10px 10px 10px 10px;
+}
+
+.tag-jenis-blog{
+  font-family: Rubik;
+ font-size: 14px;
+ font-weight: 500;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.71;
+ letter-spacing: normal;
+ color: #ff9024;
+ margin-bottom: 4px;
+}
+.judul-card-blog{
+  font-family: Rubik;
+ font-size: 18px;
+ font-weight: 500;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.44;
+ letter-spacing: normal;
+ color: #063338;
+}
+.judul-card-anak{
+    font-family: Rubik;
+   font-size: 14px;
+   font-weight: 500;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.44;
+   letter-spacing: normal;
+   color: #063338;
+  }
+.isi-card-blog{
+  opacity: 0.6;
+font-family: Rubik;
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.57;
+letter-spacing: normal;
+color: #063338;
+margin-top: 8px;
+}
+.isi-card-anak{
+    opacity: 0.6;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #063338;
+  margin-top: 3px;
+
+  }
+.tanggal-berita-blog-card{
+  opacity: 0.4;
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  color: #063338;
+  margin-top: 20px;
+}
+.card-deck .card{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.mb-card{
+  margin-bottom: 31px !important;
+}
+
+.btn-lihat-selengkapnya{
+  width: 42%;
+  border-radius: 4.4px;
+  margin-top: 31px;
+  border: solid 2px #379464;
+  background-color: #f8f8f8;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+  color: #379464;
+  padding: 12px 0 12px 0;
+  transition: 0.3s;
+}
+.btn-lihat-selengkapnya:hover{
+  border: solid 2px #379464;
+  background-color: #379464;
+  color: #fff;
+}
+.slide-jelas-page{
+  background-color: #f6f7fb;
+  width: 100%;
+  padding: 12px 0 12px 0 ;
+  margin-bottom: 41px;
+}
+a.slide-kata-minor{
+  color: rgba(6, 51, 56, 0.6);
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  transition: 0.2s;
+}
+a.slide-kata-minor:hover{
+  color: #FF9024;
+}
+.slide-judul-blog{
+  font-family: Rubik;
+font-size: 13px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #032529;
+
+}
+.judul-berita-full{
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  color: #063338;
+  margin-bottom: 8px;
+}
+.penjelasan-berita-full{
+  opacity: 0.4;
+ font-family: Rubik;
+ font-size: 13px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #063338;
+ display: inline-block;
+ margin-right: 24px;
+}
+.gambar-blog-full-almuzakki{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.gambar-blog-full-almuzakki img{
+  width: 100%;
+  height: 406px;
+  object-fit: cover;
+}
+.kotak-follow-kami{
+  margin-top: 103px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 9px 24px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 24px 16px 24px 16px;
+}
+.share-hp{
+  display:none;
+}
+.share-hp-btn{
+    display:none;
+}
+.jarak-sosmed{
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.jarak-sosmed:hover{
+  margin-left: 10px;
+}
+.sosial-media-almuzakki{
+  transition: 0.2s;
+  cursor: pointer;
+}
+.sosial-media-almuzakki:hover{
+  transform: rotate(-20deg);
+}
+.blog-berita-yayasan-almuzakki{
+  opacity: 0.6;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #063338;
+}
+.card-dlm{
+  margin-top: 35px;
+
+}
+.head-card{
+  padding: 10px 16px 10px 16px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  background-color: #369363;
+  border-radius: 8px 8px 0px 0px;
+}
+.card-body-cstm{
+  padding: 16px 16px 16px 16px;
+}
+.follow{
+  margin-top:4px;
+  color: #369363;
+  font-size: 18px;
+}
+.label-konfirmasi{
+  font-size: 14px;
+  display: block;
+  margin-bottom: 3px !important;
+}
+
+
+.card-body2{
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 16px;
+}
+.orange{
+  color: #ff9024;
+}
+.hijau{
+    color: #369363;
+}
+.btn-legalitas{
+  margin-bottom: 4px;
+  color: #fff;
+  background-color: #ff9024;
+  font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-legalitas:hover{
+  background-color: #d7771a;
+}
+
+.btntabstentang{
+  cursor: pointer;
+  display: block;
+  background-color: #369363;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  padding: 10px 3px 10px 3px;
+  font-size: 1rem;
+  color: #fff;
+  border-bottom: none;
+  transition: 0.2s;
+}
+.btntabstentang.active{
+  background-color:  #fff;
+  color: #369363;
+  border-bottom: none;
+}
+.btntabstentang:hover{
+  background-color:  #fff;
+  color: #369363;
+
+  border-bottom: none;
+}
+.table-wrapper {
+max-height: 300px;
+overflow: auto;
+display:inline-block;
+}
+.tentang-almuzakki{
+  border-radius: 20px 0 0;
+}
+.profile-almuzakki::before{
+  content: url(https://almuzakki.or.id/image/tentangprofile2.svg);
+}
+.profile-almuzakki:hover::before{
+  content: url(https://almuzakki.or.id/image/tentangprofile.svg);
+}
+.profile-almuzakki.active::before{
+  content: url(https://almuzakki.or.id/image/tentangprofile.svg);
+}
+.program-almuzakki::before{
+  content: url(https://almuzakki.or.id/image/program-donasi2.svg);
+}
+.program-almuzakki.active::before{
+  content: url(https://almuzakki.or.id/image/program-donasi.svg);
+}
+.program-almuzakki:hover::before{
+  content: url(https://almuzakki.or.id/image/program-donasi.svg);
+}
+.visi-almuzakki::before{
+  content: url(https://almuzakki.or.id/image/visimisico2.svg);
+}
+.visi-almuzakki.active::before{
+  content: url(https://almuzakki.or.id/image/visimisico.svg);
+}
+.visi-almuzakki:hover::before{
+  content: url(https://almuzakki.or.id/image/visimisico.svg);
+}
+.pengurus-yayasan::before{
+  content: url(https://almuzakki.or.id/image/pengurus2.svg);
+}
+.pengurus-yayasan.active::before{
+  content: url(https://almuzakki.or.id/image/pengurus.svg);
+}
+.pengurus-yayasan:hover::before{
+  content: url(https://almuzakki.or.id/image/pengurus.svg);
+
+}
+.logo-tentang{
+  max-width: 160px;
+}
+.pengurus-yayasan{
+  border-radius: 0 25px 0 0;
+}
+.profile-almuzakki{
+  border-radius: 25px 0 0 0;
+}
+.cardtentangkami{
+  background-color: #ffffff;
+  border-radius: 0 0 20px 20px;
+  padding: 30px 15px 30px 15px;
+  transition: 0.2s;
+}
+.bg-tentangkami{
+  background-color: #e2e2e2;
+  height: auto;
+  padding: 30px 0 30px 0;
+}
+.mg-program{
+  margin: 10px 0px 10px 0px;
+}
+.kata-tentang{
+
+}
+.title-logo-almuzakki{
+  margin-top: 10px;
+  font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #063338;
+}
+.isi-logo-almuzakki{
+  margin-top: 10px;
+  font-family: 'Rubik', sans-serif;
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.71;
+letter-spacing: normal;
+color: #063338;
+padding: 0 20px 0 20px;
+}
+/* blog end */
+.bold-profile{
+  font-weight: bold;
+  color: #FF9024;
+}
+.title-visi-misi{
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #FF9024;
+
+
+}
+.isi-visi-almuzakki{
+  font-family: 'Rubik', sans-serif;
+font-size: 17px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.71;
+letter-spacing: normal;
+text-align: justify;
+color: #063338;
+padding: 0 20px 0 20px;
+margin-bottom: 15px;
+}
+.isi-misi-almuzakki{
+  font-family: 'Rubik', sans-serif;
+font-size: 17px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.71;
+letter-spacing: normal;
+text-align: justify;
+color: #063338;
+padding: 0 20px 0 20px;
+margin-bottom: 15px;
+
+}
+.susunan-pengurus{
+  padding: 20px 20px 0 20px;
+  border: 8px solid #369363;
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+}
+.jabatan{
+  display: inline-block;
+  background-color:#ff9024;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
+  border-radius: 4px 4px 0px 0px;
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+}
+.box-pengurus{
+  border: 3px solid #ff9024;
+  border-radius: 0 4px 4px 4px;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 20px;
+
+}
+.card-pengurus{
+  background-color: #369363;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  margin: 5px 0px 5px 0px;
+  border-radius: 4px;
+}
+.title-divisi{
+  background-color: #369363;
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 25px;
+  letter-spacing: normal;
+  padding: 10px;
+}
+.blog-kosong{
+  font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #063338;
+    margin-top: 15px;
+}
+.blog-kosong2{
+  opacity: 0.6;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #063338;
+    margin-top: 5px;
+}
+/* end css donasi */
+.tbl-content{
+  overflow-x: auto;
+}
+/* laporandonasi */
+.card-laporan-donasi{
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.09);
+    padding: 16px;
+    border-radius: 4px;
+    color: #ff9024;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.laporan-donasi{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.btn-detail{
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  padding: .375rem .75rem;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ff9024;
+  transition: 0.2s;
+  cursor: pointer;
+  line-height: 1.5;
+
+}
+.btn-detail:hover{
+  background-color: #d6771b;
+
+}
+.kata-total-donasi{
+  text-align: left;
+  font-size: 12px;
+  color: #063338;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.jumlah-donasi{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: #063338;
+  margin: 0px 0 10px 0;
+}
+.bg-tgl-laporan{
+  background-color: #369363;
+}
+.stiker-laporan{
+  background-color: #369363;
+  color: #ffffff;
+  position: absolute;
+  padding: 16px;
+  right: 15px;
+
+  border-radius: 0px 4px 0px 25px;
+}
+.bulan-laporan{
+  line-height: 16px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 18px;
+}
+.tahun-laporan{
+  text-align: right;
+  font-size: 16px;
+}
+.tiga-btn-tentang{
+  padding: 0 20px 0 20px;
+  margin-top: 15px;
+
+}
+.btn-penjelasan-almuzakki{
+  background-color: #177255;
+  text-align: center;
+  color: #ffffff;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 14px;
+  border: 2px solid #177255;
+  transition: 0.2s;
+  margin: 5px 0 5px 0;
+}
+.btn-penjelasan-almuzakki:hover{
+  border: 2px solid #177255;
+  background-color: #ffffff;
+  color: #177255;
+}
+.mukhadimah-pembina{
+  background: #f8f8f8;
+  background-size: auto;
+  padding: 24px 0 48px 0;
+}
+.card-mukhadimah{
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+}
+.judul-mukhadimah{
+  font-size: 20px;
+  color: #177255;
+  font-weight:bold;
+  line-height: 20px;
+}
+.garis-mukhadimah{
+  margin-top: 10px;
+  border-bottom: 2px solid #eaeaea;
+  margin-bottom: 15px;
+}
+.isi-mukhadimah{
+    color: #063338;
+    opacity: 0.6;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+
+}
+.salam{
+
+  color:#063338;
+  font-weight:bold;
+}
+.table-atas-almuzakki{
+  background-color: #369363;
+  color:#fff;
+  font-size: 15px;
+
+  border-radius: 4px 4px 0px 0px;
+}
+.custom-table{
+  border-radius: 10px;
+}
+table{
+  margin-bottom: 0px !important;
+  overflow: hidden;
+}
+td{
+  font-size: 14px;
+  border: none !important;
+  text-align: center;
+  padding: 10px !important;
+  cursor: pointer;
+}
+th{
+  font-weight:500;
+  border: none !important;
+  text-align: center;
+  padding: 10px !important;
+}
+.almuzakki-tr:hover{
+  background-color: #F2F2F2;
+}
+.bg-tabel{
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.bg-doa{
+  background-color:#f8f8f8;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+.card-doa{
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.09);
+  padding: 16px;
+  border-radius: 4px;
+  color: #40454d;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+.isi-doa{
+  margin-top: 20px;
+  color: #063338;
+  opacity: 0.6;
+  font-family: 'Rubik' , sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+}
+.ol-doa{
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.kata-doa-untuk-donatur{
+  color: #177255;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.garis-doa{
+  border-bottom: 2px solid #eaeaea;
+  margin: 10px 0 15px 0;
+}
+.judul-detail-laporan-almuzakki{
+  color: #ff9024;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.btngaleri{
+  width: 100%;
+  background-color: #177255;
+  color: #ffffff;
+  border: none;
+
+}
+.btngaleri.active{
+  background-color: #ffffff;
+  color: #FF9024;
+}
+.garisbtngaleri{
+  border: 2px solid #177255;
+  border-radius:4px;
+}
+.jarak-atas-galeri{
+  margin-top: 20px;
+}
+.card-body-galeri{
+  padding: 16px;
+}
+.img-ig{
+  border-radius: 4px;
+}
+.galeri-almuzakki{
+  width: 100%;
+  height: 190px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.btngaleri{
+  cursor: pointer;
+}
+/* Laporandonasi tutup */
+
+
+/* start css media query */
+@media(max-width:1200){
+
+}
+@media (max-width:1000px) {
+  .keterangan-carousel-blog-almuzakki{
+    position: absolute;
+    top: 45%;
+    color: #fff;
+    left: 4%;
+    z-index: 11;
+  }
+
+  .pd-card-donasi{
+    padding:16px 25px 16px 25px;
+  }
+  .nomer-rekening-donasi-zakat{
+    font-size: 15px;
+  }
+  .jarak-1-panti-asuhan{
+    margin-top: 0;
+  }
+  .galeri-almuzakki{
+    width: 100%;
+    height: 150px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .penjelasan-berbagi-zakat{
+    margin-top: 20px;
+
+  }
+  .txt-pelajari-tentang-kami{
+    display: block;
+    margin-left: 0;
+    padding-top: 10px;
+  }
+  .penjelasan-berbagi-zakat{
+    margin-top: 10px;
+
+  }
+
+}
+@media only screen and(max-width:991px){
+  .nav-link{
+    margin:0 !important;
+  }
+}
+@media only screen and (max-width: 767px  ){
+  .galeri-tengah{
+    height: 200px;
+    width: 100%;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    object-fit: cover;
+  }
+  .kata-tentang {
+    min-height: 40px;
+  }
+  .slide-jelas-page{
+    margin-bottom: 20px;
+  }
+  .gambar-blog-full-almuzakki img{
+    height: 306px;
+  }
+  .img-custom-crsl{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 14px;
+
+  }
+  .galeri-almuzakki{
+    width: 100%;
+    height: 160px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .kotak-follow-kami{
+    display: none;
+  }
+  .share-hp{
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 9px 24px 0 rgba(0, 0, 0, 0.08);
+  display:block;
+  padding: 24px 16px 24px 16px;
+}
+.share-hp-btn{
+    display:inline-block;
+    margin-right:8px;
+}
+  .keterangan-donasi-transfer{
+    margin: 24px 0px 24px 0px;
+  }
+  .keterangan-donasi-transfer2{
+    margin: 24px 0px 16px 0px;
+  }
+  .pd-card-donasi{
+    padding:16px 25px 16px 25px;
+  }
+  .nomer-rekening-donasi-zakat{
+    font-size: 15px;
+  }
+  .nav-link{
+    margin-right: 0;
+  }
+  .rpv-yayasan-yatim-piatu{
+    margin: 10px 0 10px 0 ;
+    text-align: left;
+  }
+  .card{
+    margin-bottom: 30px;
+  }
+
+  .margin-mb-display {
+    margin-top: 70px;
+  }
+  .background-yayasan-zakat-yatim7 {
+    background-color: #177255;
+    width: 100%;
+    height: auto;
+    padding: 60px 20px 32px 20px;
+}
+  .background-yayasan-zakat-yatim2{
+    padding: 15px 0 15px 0;
+  }
+  .img-anak-yatim{
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 660px  ){
+  .txt-memberikan-donasi-position2{
+    text-align: center;
+    padding: 60px 15px 0 15px;
+  }
+  .bg-donasi{
+    height: 380px;
+  }
+  .gambar-blog-full-almuzakki img{
+    height: 240px;
+  }
+  .judul-berita-carousel-almuzakki{
+    font-size: 28px;
+  }
+  .keterangan-carousel-blog-almuzakki{
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    left: 4%;
+    z-index: 11;
+  }
+  .img-custom-crsl1{
+    height: 250px;
+  }
+  .carousel-indicators{
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  .img-custom-crsl{
+    width: 140px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 14px;
+
+  }
+
+  .galeri-almuzakki{
+    width: 100%;
+    height: 150px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .txt-memberikan-donasi-position{
+    margin-top: 15px;
+  }
+  .nomer-rekening-donasi-zakat{
+    font-size: 13px;
+  }
+  .program-donasi{
+    padding-top:50px;
+  }
+  .margin-top-part3{
+    padding-top: 50px;
+  }
+  .margin-nav-li{
+    margin-left: 20px;
+  }
+  .jarak-btn-respo{
+    margin-top: 30px;
+  }
+
+  .txt-pelajari-tentang-kami{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #063338;
+
+  }
+  .background-yayasan-zakat-yatim7 {
+
+    padding: 60px 0 32px 0;
+}
+  .jarak-1-panti-asuhan{
+    margin-top: 0;
+  }
+  .penjelasan-berbagi-zakat{
+    margin-top: 20px;
+
+  }
+  .nav-link{
+    margin-right: 0;
+  }
+  .navbar{
+    padding: .5rem 1rem ;
+  }
+  .margin-head{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #063338;
+  }
+  .mb-display{
+    margin-left: 31%;
+  }
+  .position-background-yayasan-zakat-yatim3{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .margin-mb-display{
+    margin-top:70px;
+  }
+
+  .txt-tentang-kami-bottom{
+    margin-top: 50px;
+  }
+
+  .margin-mb-btn-bottom{
+    margin-top: 40px;
+  }
+
+  .margin-part1-top{
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 330px  ){
+  .kata-tentang{
+  display: none;
+  }
+  .txt-memberikan-donasi-position2{
+    text-align: center;
+    padding: 40px 15px 0 15px;
+  }
+  .gambar-blog-full-almuzakki img{
+    height: 206px;
+  }
+  .img-custom-crsl{
+    width: 100px;
+    height: 55px;
+    object-fit: cover;
+    margin-right: 8px;
+
+  }
+  .galeri-almuzakki{
+    width: 100%;
+    height: 80px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .nomer-rekening-donasi-zakat{
+    font-size: 11px;
+    margin: 6px 0 6px 0;
+  }
+  .pd-card-donasi{
+    padding: 16px 16px 16px 16px;
+  }
+  .jarak-btn-respo{
+    margin-top: 30px;
+  }
+  .margin-nav-li{
+    margin-left: 20px;
+  }
+
+
+  .margin-top-part3{
+    padding-top: 50px;
+  }
+  .txt-yayasan-yatim-piatu-almuzakki{
+    margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #063338;
+  }
+
+  .margin-head{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #063338;
+  }
+  .mb-display{
+    margin-left: 31%;
+  }
+  .position-background-yayasan-zakat-yatim3{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .judul-detail-yayasan-yatim{
+    padding-bottom: 10px;
+    margin-top: 23px;
+  }
+  .navbar-al-muzzaki{
+    background-color: #fff;
+    padding: 0;
+  }
+}
+
+/* end css media query */
